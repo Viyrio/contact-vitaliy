@@ -1,0 +1,109 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #0a9396;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Abschnitte */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #005f73;
+}
+
+/* Über mich */
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Leistungen */
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    color: #0a9396;
+}
+
+/* Kontakt */
+#contact .btn {
+    display: inline-block;
+    background-color: #ee9b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#contact .btn:hover {
+    background-color: #ca6702;
+}
+
+/* Footer */
+footer {
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
